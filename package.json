@@ -1,0 +1,43 @@
+{
+  "name": "@nodesandbox/logger",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "version": "npm version"
+  },
+  "keywords": [
+    "logger",
+    "winston",
+    "node",
+    "typescript"
+  ],
+  "author": "ATARMLA Abdou-Raouf <achilleatarmla@gmail.com>",
+  "license": "MIT",
+  "description": "A singleton logging utility for Node.js applications using Winston.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/@nodesandbox/logger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/@nodesandbox/logger/issues"
+  },
+  "homepage": "https://github.com/@nodesandbox/logger#readme",
+  "dependencies": {
+    "winston": "^3.13.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ]
+}
