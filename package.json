@@ -23,12 +23,12 @@
   "description": "A singleton logging utility for Node.js applications using Winston.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/@nodesandbox/logger.git"
+    "url": "git+https://github.com/nodesandbox/logger.git"
   },
   "bugs": {
-    "url": "https://github.com/@nodesandbox/logger/issues"
+    "url": "https://github.com/nodesandbox/logger/issues"
   },
-  "homepage": "https://github.com/@nodesandbox/logger#readme",
+  "homepage": "https://github.com/nodesandbox/logger#readme",
   "dependencies": {
     "winston": "^3.13.1"
   },
